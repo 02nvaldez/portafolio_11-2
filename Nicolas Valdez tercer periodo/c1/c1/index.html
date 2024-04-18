@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Frontend</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            margin-bottom: auto;
+            background-size: cover;
+        }
+
+        header {
+            background-image: linear-gradient(to right bottom, #447fd6, #1988d4, #008fce, #0095c5, #009abb);
+            color: white;
+            padding: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        button {
+            background-color: #4c7faf;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #c4c4c4;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+    <!-- ssssssssssssssssssssssssssssssss -->
+
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.php">Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Portafolio PHP</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="http://localhost/portafolio%20Nicolas%20Valdez/">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="As" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Primer Periodo
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="nicolas\AcsesoApp.php">Acseso App</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\AreaTriangulo.php">Area
+                                        Triangulo</a></li>
+                                <li><a class="dropdown-item" href="nicolas\CalculDesc.php">Calcular
+                                        Descuento</a></li>
+                                <li><a class="dropdown-item" href="nicolas\FigurasGeometricas.php">Figuras
+                                        Geometricas</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\HolaMundo.php">Hola Mundo</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\Imc1.php">Imc 1</a></li>
+                                <li><a class="dropdown-item" href="nicolas\Imc2.php">Imc 2</a></li>
+                                <li><a class="dropdown-item" href="nicolas\LogoPHP.php">Logo PHP</a></li>
+                                <li><a class="dropdown-item" href="nicolas\Notas.php">Notas</a></li>
+                                <li><a class="dropdown-item" href="nicolas\OperacionesBasicas.php">Operaciones
+                                        Basicas</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\Suma.php">Suma</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="As" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Segundo Periodo
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="nicolas\punto1.php">Numero Positivo
+                                        o Negativo</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\punto2.php">Numero Par o
+                                        Impar</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\punto3.php">Numero Positivo
+                                        o Negativo 2</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\punto4.php">Numero Mayor o
+                                        Menor
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\punto5.php">Menú
+                                        Restaurante</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\whiledowhile1.php">Ventas
+                                        diarias</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\whiledowhile2.php">Facturas
+                                        Meses</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\quiz1.php">Entradas</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\quiz2.php">Tabla de Multiplicar
+                                        Meses</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\quiz3.php">Descuentos Por Puntos
+                                        Acumulados</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="As" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Tercer Periodo
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Nicolas Valdez tercer periodo\c1\index.html">Consulta
+                                        Frontend</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\punto2.php">Numero Par o
+                                        Impar</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\punto3.php">Numero Positivo
+                                        o Negativo 2</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\punto4.php">Numero Mayor o
+                                        Menor
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\punto5.php">Menú
+                                        Restaurante</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\whiledowhile1.php">Ventas
+                                        diarias</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\whiledowhile2.php">Facturas
+                                        Meses</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\quiz1.php">Entradas</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\quiz2.php">Tabla de Multiplicar
+                                        Meses</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nicolas\quiz3.php">Descuentos Por Puntos
+                                        Acumulados</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+</head>
+<br><br>
+
+<header>
+    <br><br><br>
+    <center>
+        <h1>Mi Página Web</h1>
+    </center>
+    <br><br><br>
+</header>
+
+<body>
+    <center>
+        <p>Bienvenido a mi ejemplo de frontend. Esta es una página simple
+            con estilos básicos.</p>
+        <button onclick="location.href='index.inicio.php'">Click Me</button>
+        </main>
+    </center>
+</body>
+
+</html>

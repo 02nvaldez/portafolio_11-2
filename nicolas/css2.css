@@ -1,0 +1,47 @@
+.positivo {
+  color: rgb(0, 89, 255);
+  background-color: rgba(54, 211, 6, 0.76);
+  border-radius: 10px;
+  height: 60px;
+  text-align: center;
+}
+
+.negativo {
+  color: rgb(255, 217, 0);
+  background-color: rgba(211, 47, 6, 0.76);
+  border-radius: 10px;
+  height: 60px;
+  text-align: center;
+}
+
+.cero {
+  color: rgb(148, 148, 148);
+  background-color: rgba(61, 61, 61, 0.76);
+  border-radius: 10px;
+  height: 60px;
+  text-align: center;
+}
+
+.mayor {
+  color: rgb(255, 255, 255);
+  background-color: rgba(54, 211, 6, 0.76);
+  border-radius: 10px;
+  height: 60px;
+  text-align: center;
+}
+
+.menor {
+  color: rgb(255, 255, 255);
+  background-color: rgba(211, 47, 6, 0.76);
+  border-radius: 10px;
+  height: 60px;
+  text-align: center;
+}
+
+.medio {
+  color: rgb(255, 255, 255);
+  background-color: rgba(61, 61, 61, 0.76);
+  border-radius: 10px;
+  height: 60px;
+  text-align: center;
+}
